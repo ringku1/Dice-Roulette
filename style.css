@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: #222;
+  color: white;
+  padding-top: 50px;
+}
+
+.dice {
+  font-size: 60px;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+@keyframes flicker {
+  0% { background-color: black; }
+  25% { background-color: red; }
+  50% { background-color: yellow; }
+  75% { background-color: red; }
+  100% { background-color: black; }
+}
+
+.flicker-effect {
+  animation: flicker 0.1s infinite;
+}
